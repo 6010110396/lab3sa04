@@ -27,9 +27,6 @@ export default function Weather(props) {
         }
     }, [props.zipCode])
 
-    
-   
-
 
     return (
         <ImageBackground source={require('../15.jpg')} style={styles.backdrop}>
